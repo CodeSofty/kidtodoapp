@@ -1,0 +1,65 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: lightblue;
+}
+
+h1 {
+	font-family: 'Gafata', sans-serif;
+	color: #ff4500;
+	text-align: center;
+	font-size: 4em;
+}
+
+.wrapper {
+	margin: 40px auto;
+	width: 80%;
+}
+
+.left-col {
+	width: 40%;
+	height: 600px;
+	background-color: black;
+	float: left;
+}
+.right-col {
+	
+	width: 50%;
+	height: 600px;
+	margin-left: 60px;
+	background-color: grey;
+	float: left;
+}
+.right-col h2 {
+	font-family: 'Gafata', sans-serif;
+	text-align: center;
+	font-size: 1em;
+	color: lightgrey;
+	margin-top: 20px;
+	padding: 0;
+}
+
+.images {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+	min-width: 0;
+	margin: 5px;
+	padding: 20px;
+}
+
+img {
+	margin: 10px 0 3px 10px;
+	width: 150px;
+	max-width: 150px;
+	max-height: 160px;
+}
+
+ul li {
+	color: white;
+	font-size: 2em;
+}
